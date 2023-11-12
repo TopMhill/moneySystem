@@ -1,0 +1,129 @@
+@charset "UTF-8";
+	no_line {text-decoration: none;}
+	a{text-decoration: none;}
+	*{
+		font-family:"楷体";
+		
+		
+	}	
+	#exit :link
+	{
+		color : red;
+	}
+	#exit :visited {
+  color: black;
+}
+
+#exit:hover {
+  color: blue;
+}
+
+#exit:active {
+  color: yellow;
+}
+a:link {
+  color: black;
+}
+no_line {text-decoration: none;}
+	a{text-decoration: none;}
+
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: yellow;
+}
+		body{
+			background:url("backpic1.jpg") no-repeat;
+            background-size: 100% 100%;
+            background-position: center center;
+            overflow: auto;
+		height: 900px;
+       }
+	.mytest
+	{
+		align:left;
+	}
+	.mytest .left
+	{
+		list-style:none;
+		align:left;
+		
+	}
+	.mytest .right
+	{
+		list-style:none;
+		width :50px;
+		float:right;
+	}
+	.input_box {
+		width: 300px;
+		height: 30px;
+		padding-left: 10px;
+		margin-top: 20px;
+		margin-left: 50px;
+	}
+	.title {
+		text-align: center;
+		font-size: 28px;
+		color: #000;
+		margin-top: 80px;
+		margin-bottom: 10px;
+		letter-spacing: 3px;
+		font-family: sans-serif;
+	}
+	.login_box {
+		width: 450px;
+		height: 550px;
+		background-color: #FFFFF0;
+		margin: auto;
+		margin-top: 50px;
+		border-radius: 5px;
+		overflow: hidden;
+	}
+	.success
+	{
+		color:green;
+	}
+	.failure
+	{
+		color:red;
+	}
+	.button_box {
+		width: 300px;
+		height: 35px;
+		margin-top: 20px;
+		margin-left: 50px;
+		border-radius: 5px;
+		background-color: #12564a;
+		cursor: pointer;
+		color: #fff;
+	.login_box {
+		width: 400px;
+		height: 400px;
+		background-color: #fff;
+		margin: auto;
+		margin-top: 150px;
+		border-radius: 5px;
+		overflow: hidden;
+	}
+	.success
+	{
+		background:#f5f5f5;
+		font-weight:bold;
+		color:#000000;
+		border:1px #009900 solid;
+	}
+	.failure
+	{
+		background:#f5f5f5;
+		font-weight:bold;
+		color:#000000;
+		border:1px #990000 solid;
+	}
